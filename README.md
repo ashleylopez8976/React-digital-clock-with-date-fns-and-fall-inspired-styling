@@ -25,7 +25,7 @@ Install Node.js and npm before running this project.
 
 1. Clone this repository using its GitHub URL:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ashleylopez8976/React-digital-clock-with-date-fns-and-fall-inspired-styling.git color-clock
    ```
 
 2. Enter the project folder:
