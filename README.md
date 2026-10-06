@@ -1,16 +1,56 @@
-# React + Vite
+# Color Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that displays the current date and time.
+The clock updates every second and uses date-fns for formatting.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Date displayed above the time
+- Time shown with seconds and AM/PM
+- Fall colors with a yellow background and burnt-orange border
+- Baskerville Old Face font, with fallback fonts
+- Responsive clock layout
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript and JSX
+- Vite
+- CSS
+- date-fns
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install Node.js and npm before running this project.
+
+1. Clone this repository using its GitHub URL:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Enter the project folder:
+   ```bash
+   cd color-clock
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the Local URL displayed in the terminal.
+
+Keep the terminal running while viewing the application.
+
+## Project Structure
+
+- src/App.jsx: Clock component and timer logic
+- src/App.css: Clock layout and styling
+- src/index.css: Page background and fonts
+- src/main.jsx: Renders the React application
+- package.json: Dependencies and npm scripts
