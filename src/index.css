@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #f5d576;
+  color: #713611;
+  font-family: "Baskerville Old Face", Baskerville, Georgia, serif;
+}
